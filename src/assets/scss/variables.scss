@@ -1,0 +1,36 @@
+// Couleurs
+$bg-color: #141414; // Couleur de fond foncée
+$text-color: #ffffff; // Couleur de texte de base
+$primary-color: #007bff; // Couleur principale
+
+// Typographie
+$font-primary: "Roboto", sans-serif; // Police principale
+$font-size-base: 16px; // Taille de police de base
+
+// Espacements
+$space-xxs: 4px; // Très petit espacement
+$space-xs: 8px; // Petit espacement
+$space-sm: 16px; // Espacement moyen
+$space-md: 24px; // Grand espacement
+$space-lg: 32px; // Très grand espacement
+
+// Bordures
+$border-radius: 4px; // Rayon de la bordure arrondie
+$border-width: 1px; // Largeur de la bordure
+
+// Boutons
+$btn-font-weight: 600; // Poids de la police pour les boutons
+$btn-padding: $space-sm $space-md; // Espacement interne pour les boutons
+$btn-border-radius: $border-radius; // Rayon de la bordure arrondie pour les boutons
+
+// Formulaires
+$input-padding: $space-xs $space-sm; // Espacement interne pour les champs de saisie
+$input-border-radius: $border-radius; // Rayon de la bordure arrondie pour les champs de saisie
+$input-border-width: $border-width; // Largeur de la bordure pour les champs de saisie
+$input-border-color: #ccc; // Couleur de la bordure pour les champs de saisie
+
+// Media queries
+$media-xs: 576px;
+$media-sm: 768px;
+$media-md: 992px;
+$media-lg: 1200px;

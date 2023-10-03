@@ -1,0 +1,7 @@
+@import '@/assets/scss/variables.scss';
+
+body {
+    background-color: $bg-color;
+    color: $text-color;
+    font-family: $font-primary;
+}
