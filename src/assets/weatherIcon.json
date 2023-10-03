@@ -1,0 +1,206 @@
+[
+	{ "id": 0, "description": "Soleil", "icon": "fas fa-sun" },
+	{ "id": 1, "description": "Peu nuageux", "icon": "fas fa-cloud-sun" },
+	{ "id": 2, "description": "Ciel voilé", "icon": "fas fa-cloud" },
+	{ "id": 3, "description": "Nuageux", "icon": "fas fa-cloud" },
+	{ "id": 4, "description": "Très nuageux", "icon": "fas fa-cloud" },
+	{ "id": 5, "description": "Couvert", "icon": "fas fa-cloud" },
+	{ "id": 6, "description": "Brouillard", "icon": "fas fa-smog" },
+	{ "id": 7, "description": "Brouillard givrant", "icon": "fas fa-smog" },
+	{ "id": 10, "description": "Pluie faible", "icon": "fas fa-cloud-rain" },
+	{ "id": 11, "description": "Pluie modérée", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 12, "description": "Pluie forte", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 13, "description": "Pluie faible verglaçante", "icon": "fas fa-icicles" },
+	{ "id": 14, "description": "Pluie modérée verglaçante", "icon": "fas fa-icicles" },
+	{ "id": 15, "description": "Pluie forte verglaçante", "icon": "fas fa-icicles" },
+	{ "id": 16, "description": "Bruine", "icon": "fas fa-cloud-drizzle" },
+	{ "id": 20, "description": "Neige faible", "icon": "fas fa-snowflake" },
+	{ "id": 21, "description": "Neige modérée", "icon": "fas fa-snowflake" },
+	{ "id": 22, "description": "Neige forte", "icon": "fas fa-snowflake" },
+	{ "id": 30, "description": "Pluie et neige mêlées faibles", "icon": "fas fa-cloud-meatball" },
+	{ "id": 31, "description": "Pluie et neige mêlées modérées", "icon": "fas fa-cloud-meatball" },
+	{ "id": 32, "description": "Pluie et neige mêlées fortes", "icon": "fas fa-cloud-meatball" },
+	{
+		"id": 40,
+		"description": "Averses de pluie locales et faibles",
+		"icon": "fas fa-cloud-showers-heavy"
+	},
+	{ "id": 41, "description": "Averses de pluie locales", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 42, "description": "Averses locales et fortes", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 43, "description": "Averses de pluie faibles", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 44, "description": "Averses de pluie", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 45, "description": "Averses de pluie fortes", "icon": "fas fa-cloud-showers-heavy" },
+	{
+		"id": 46,
+		"description": "Averses de pluie faibles et fréquentes",
+		"icon": "fas fa-cloud-showers-heavy"
+	},
+	{
+		"id": 47,
+		"description": "Averses de pluie fréquentes",
+		"icon": "fas fa-cloud-showers-heavy"
+	},
+	{
+		"id": 48,
+		"description": "Averses de pluie fortes et fréquentes",
+		"icon": "fas fa-cloud-showers-heavy"
+	},
+	{
+		"id": 60,
+		"description": "Averses de neige localisées et faibles",
+		"icon": "fas fa-cloud-snow"
+	},
+	{ "id": 61, "description": "Averses de neige localisées", "icon": "fas fa-cloud-snow" },
+	{
+		"id": 62,
+		"description": "Averses de neige localisées et fortes",
+		"icon": "fas fa-cloud-snow"
+	},
+	{ "id": 63, "description": "Averses de neige faibles", "icon": "fas fa-cloud-snow" },
+	{ "id": 64, "description": "Averses de neige", "icon": "fas fa-cloud-snow" },
+	{ "id": 65, "description": "Averses de neige fortes", "icon": "fas fa-cloud-snow" },
+	{
+		"id": 66,
+		"description": "Averses de neige faibles et fréquentes",
+		"icon": "fas fa-cloud-snow"
+	},
+	{ "id": 67, "description": "Averses de neige fréquentes", "icon": "fas fa-cloud-snow" },
+	{
+		"id": 68,
+		"description": "Averses de neige fortes et fréquentes",
+		"icon": "fas fa-cloud-snow"
+	},
+	{
+		"id": 70,
+		"description": "Averses de pluie et neige mêlées localisées et faibles",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{
+		"id": 71,
+		"description": "Averses de pluie et neige mêlées localisées",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{
+		"id": 72,
+		"description": "Averses de pluie et neige mêlées localisées et fortes",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{
+		"id": 73,
+		"description": "Averses de pluie et neige mêlées faibles",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{ "id": 74, "description": "Averses de pluie et neige mêlées", "icon": "fas fa-cloud-sleet" },
+	{
+		"id": 75,
+		"description": "Averses de pluie et neige mêlées fortes",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{
+		"id": 76,
+		"description": "Averses de pluie et neige mêlées faibles et nombreuses",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{
+		"id": 77,
+		"description": "Averses de pluie et neige mêlées fréquentes",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{
+		"id": 78,
+		"description": "Averses de pluie et neige mêlées fortes et fréquentes",
+		"icon": "fas fa-cloud-sleet"
+	},
+	{ "id": 100, "description": "Orages faibles et locaux", "icon": "fas fa-bolt" },
+	{ "id": 101, "description": "Orages locaux", "icon": "fas fa-bolt" },
+	{ "id": 102, "description": "Orages fort et locaux", "icon": "fas fa-bolt" },
+	{ "id": 103, "description": "Orages faibles", "icon": "fas fa-bolt" },
+	{ "id": 104, "description": "Orages", "icon": "fas fa-bolt" },
+	{ "id": 105, "description": "Orages forts", "icon": "fas fa-bolt" },
+	{ "id": 106, "description": "Orages faibles et fréquents", "icon": "fas fa-bolt" },
+	{ "id": 107, "description": "Orages fréquents", "icon": "fas fa-bolt" },
+	{ "id": 108, "description": "Orages forts et fréquents", "icon": "fas fa-bolt" },
+	{
+		"id": 120,
+		"description": "Orages faibles et locaux de neige ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{ "id": 121, "description": "Orages locaux de neige ou grésil", "icon": "fas fa-bolt" },
+	{ "id": 122, "description": "Orages locaux de neige ou grésil", "icon": "fas fa-bolt" },
+	{ "id": 123, "description": "Orages faibles de neige ou grésil", "icon": "fas fa-bolt" },
+	{ "id": 124, "description": "Orages de neige ou grésil", "icon": "fas fa-bolt" },
+	{ "id": 125, "description": "Orages de neige ou grésil", "icon": "fas fa-bolt" },
+	{
+		"id": 126,
+		"description": "Orages faibles et fréquents de neige ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{ "id": 127, "description": "Orages fréquents de neige ou grésil", "icon": "fas fa-bolt" },
+	{ "id": 128, "description": "Orages fréquents de neige ou grésil", "icon": "fas fa-bolt" },
+	{
+		"id": 130,
+		"description": "Orages faibles et locaux de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 131,
+		"description": "Orages locaux de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 132,
+		"description": "Orages fort et locaux de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 133,
+		"description": "Orages faibles de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 134,
+		"description": "Orages de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 135,
+		"description": "Orages forts de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 136,
+		"description": "Orages faibles et fréquents de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 137,
+		"description": "Orages fréquents de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{
+		"id": 138,
+		"description": "Orages forts et fréquents de pluie et neige mêlées ou grésil",
+		"icon": "fas fa-bolt"
+	},
+	{ "id": 140, "description": "Pluies orageuses", "icon": "fas fa-cloud-showers-heavy" },
+	{
+		"id": 141,
+		"description": "Pluie et neige mêlées à caractère orageux",
+		"icon": "fas fa-cloud-showers-heavy"
+	},
+	{ "id": 142, "description": "Neige à caractère orageux", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 210, "description": "Pluie faible intermittente", "icon": "fas fa-cloud-rain" },
+	{
+		"id": 211,
+		"description": "Pluie modérée intermittente",
+		"icon": "fas fa-cloud-showers-heavy"
+	},
+	{ "id": 212, "description": "Pluie forte intermittente", "icon": "fas fa-cloud-showers-heavy" },
+	{ "id": 220, "description": "Neige faible intermittente", "icon": "fas fa-snowflake" },
+	{ "id": 221, "description": "Neige modérée intermittente", "icon": "fas fa-snowflake" },
+	{ "id": 222, "description": "Neige forte intermittente", "icon": "fas fa-snowflake" },
+	{ "id": 230, "description": "Pluie et neige mêlées", "icon": "fas fa-cloud-meatball" },
+	{ "id": 231, "description": "Pluie et neige mêlées", "icon": "fas fa-cloud-meatball" },
+	{ "id": 232, "description": "Pluie et neige mêlées", "icon": "fas fa-cloud-meatball" },
+	{ "id": 235, "description": "Averses de grêle", "icon": "fas fa-cloud-meatball" }
+]
