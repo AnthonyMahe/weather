@@ -6,7 +6,7 @@
 
 <script>
 export default {
-	name: "Component01",
+	name: "ChooseTown",
 	data() {
 		return {
 			title: "",
