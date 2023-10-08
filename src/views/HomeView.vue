@@ -4,15 +4,15 @@
 			<h1>Mété</h1>
 			<v-icon size='x-small' color="yellow" icon="fa-solid fa-sun" class="soleil"></v-icon>
 		</div>
-		<Component01 />
-		<ChooseTown />
-		<v-text-field label="Rechercher une ville"></v-text-field>
-		<v-btn icon="fa-solid fa-plus" class="bouton"></v-btn>
+		<!-- v-if ouvert permet de conditionner le composant ChooseTown -->
+	<div class="infos">
+		<ChooseTown v-if="ouvert" @close="fermerChooseTown"/>
+		<v-btn icon="fa-solid fa-plus" class="bouton" @click="auClick" v-if="ouvert===false"></v-btn>
+	</div>
 	</div>
 </template>
 
 <script>
-import Component01 from "../components/Component01.vue";
 import ChooseTown from "../components/ChooseTown.vue";
 
 export default {
@@ -20,6 +20,7 @@ export default {
 	data() {
 		return {
 			title: "Météo" ,
+			ouvert: false,
 		};
 	},
 	props: {},
@@ -28,6 +29,12 @@ export default {
 	},
 	methods: {
 		// Methods
+		auClick() {
+			this.ouvert= true
+		},
+		fermerChooseTown() {
+			this.ouvert= false
+		}
 	},
 	watch: {
 		// Watchers
@@ -35,7 +42,7 @@ export default {
 	computed: {
 		// Computed
 	},
-	components: { Component01, ChooseTown },
+	components: { ChooseTown },
 };
 </script>
 
@@ -61,6 +68,11 @@ export default {
 
   .bouton {
 	border: 2px solid white;
+  }
+  
+  .infos {
+	display: flex;
+	justify-content: center;
   }
 
 

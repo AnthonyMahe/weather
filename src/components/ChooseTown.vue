@@ -1,6 +1,8 @@
 <template>
 	<div>
 		<h1>{{ title }}</h1>
+		<v-btn icon="fa-solid fa-xmark" class="bouton" @click="auClick"></v-btn>
+		<v-text-field label="Rechercher une ville"></v-text-field>
 	</div>
 </template>
 
@@ -18,6 +20,9 @@ export default {
 	},
 	methods: {
 		// Methods
+		auClick() {
+			this.$emit("close")
+		}
 	},
 	watch: {
 		// Watchers
